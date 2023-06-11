@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.newsbuddy.SignInActivity"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/newsicon"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#EF92FF"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up_with"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:layout_marginTop="100dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Google"
+        android:textAlignment="textStart"
+        android:paddingStart="90dp"
+        android:textStyle="bold"
+        android:ems="13"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:background="@drawable/loginbackground"
+        android:drawableLeft="@drawable/google"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnFacebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Skip"
+        android:textAllCaps="false"
+        android:textAlignment="textStart"
+        android:paddingStart="90dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:background="@drawable/loginbackground"
+        android:ems="13"
+        android:drawableLeft="@drawable/baseline_navigate_next_24"
+        android:onClick="Skip"
+        />
+
+
+
+
+
+</LinearLayout>

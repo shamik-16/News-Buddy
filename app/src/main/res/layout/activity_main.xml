@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.newsbuddy.MainActivity">
+
+<!-- ToolBar code is here -->
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C04AD5"
+        android:layout_marginTop="0dp"
+        >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            >
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/newsicon"
+                />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/toolbarheading"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/profileImage"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/baseline_person_24"
+                android:layout_marginStart="140dp"
+                android:onClick="GoToProfile"
+                android:background="#C04AD5"
+              />
+            
+        </LinearLayout>
+        
+    </androidx.appcompat.widget.Toolbar>
+
+<!--Tab layout code is here-->
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/include"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_below="@+id/toolBar"
+        app:tabTextColor="#EF92FF"
+        app:tabSelectedTextColor="#C04AD5"
+        app:tabIndicatorHeight="4dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/white"
+        app:tabMode="scrollable"
+        >
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/homeTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tabi_item_1"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/technologyTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_2"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/sportsTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_3"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/healthTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_4"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/entertainmentTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_5"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/scienceTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_6"
+            />
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+<!--    viewpager code is here-->
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include"
+        android:layout_margin="10dp"
+        />
+
+
+</RelativeLayout>

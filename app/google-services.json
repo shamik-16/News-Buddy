@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "897636616265",
+    "project_id": "news-buddy-6a830",
+    "storage_bucket": "news-buddy-6a830.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897636616265:android:c75af77d98f61878f11798",
+        "android_client_info": {
+          "package_name": "com.example.newsbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897636616265-mejq7tcesk2u1bh7sgrqvarc043qertu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2gCtCpvtalUkjYnpAbORD9PYMNCQ6_cw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897636616265-mejq7tcesk2u1bh7sgrqvarc043qertu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

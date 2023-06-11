@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="11dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="15dp"
+    >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/profile_lay"
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imgProfile"
+                android:layout_margin="20dp"
+                android:src="@drawable/profile"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtName"
+                android:text="@string/guest"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:layout_marginBottom="15dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:padding="5dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtEmail"
+                android:text="@string/guest_gmail_com"
+                android:textColor="@color/black"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:padding="5dp"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnLogout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Logout"
+                android:textAlignment="textStart"
+                android:paddingStart="60dp"
+                android:textStyle="bold"
+                android:ems="10"
+                android:textColor="@color/black"
+                android:layout_margin="30dp"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:background="@drawable/loginbackground"
+                android:drawableStart="@drawable/baseline_exit_to_app_24"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+

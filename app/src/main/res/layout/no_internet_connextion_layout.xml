@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/loginbackground"
+    android:gravity="center"
+    android:layout_gravity="center"
+    >
+
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:src="@drawable/no_internet"
+        android:padding="25dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_internet"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRetry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/retry"
+        android:background="@drawable/btnbackground"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_margin="40dp"
+        />
+
+</LinearLayout>

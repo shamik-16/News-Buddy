@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NewsBuddy" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">#C04AD5</item>
+        <item name="colorPrimaryDark">#882499</item>
+    </style>
+
+    <style name="Theme.NewsBuddy" parent="Base.Theme.NewsBuddy" />
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">News Buddy</string>
+    <string name="toolbarheading">News Buddy</string>
+    <string name="tabi_item_1">Home</string>
+    <string name="tab_2">Technology</string>
+    <string name="tab_3">Sports</string>
+    <string name="tab_4">Health</string>
+    <string name="tab_5">Entertainment</string>
+    <string name="tab_6">Science</string>
+    <string name="heading">Main Heading osdilfj dsfjlj flsdkjfojf lds fkdslfjdsofjlkdsjf j sdljlj ds of news</string>
+    <string name="main_content">Main content</string>
+    <string name="by_news">By news</string>
+    <string name="date_and_time">date and time</string>
+    <string name="specific_news">Detailed News</string>
+    <string name="news_buddy">News Buddy</string>
+    <string name="temp_discription">There is no description of this news article so for read this full news click on it so that you can read this article in detailed.</string>
+    <string name="author_anonymous">"Author : anonymous "</string>
+    <string name="developed_by_sr">Developed by SR</string>
+    <string name="login">News Buddy</string>
+    <string name="sign_up_with">Sign Up With</string>
+    <string name="skip">Skip</string>
+    <string name="guest">Guest</string>
+    <string name="guest_gmail_com">guest@gmail.com</string>
+    <string name="no_internet">NO INTERNET</string>
+    <string name="retry">Retry</string>
+</resources>
